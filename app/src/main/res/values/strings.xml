@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CometChat-SDKDemo</string>
+    <string name="user_list">User List</string>
+    <string name="chatrooms">Chatroom List</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_chat">SingleChatActivity</string>
+    <string name="title_activity_chatroom_chat">ChatroomChatActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_logs">Logs</string>
+    <string name="title_activity_incoming_call">IncomingCallActivity</string>
+    <string name="title_activity_outgoining_call">OutgoiningCallActivity</string>
+    <string name="title_call_user">Call user</string>
+    <string name="title_activity_aabcs">Aabcs</string>
+    <string name="title_activity_url_screen">UrlScreenActivity</string>
+    <string name="title_activity_login_type">Select login type</string>
+    <string name="title_activity_login">Login</string>
+
+</resources>

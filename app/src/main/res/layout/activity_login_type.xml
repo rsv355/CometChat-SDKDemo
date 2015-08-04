@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.inscripts.sdk.demo.LoginTypeActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="60dp"
+        android:text="Login with:"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonLoginWithUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Username And Password" />
+
+    <Button
+        android:id="@+id/buttonLoginWithUserid"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonLoginWithUsername"
+        android:layout_centerHorizontal="true"
+        android:text="Login with userid" />
+
+    <Button
+        android:id="@+id/buttonLoginWithGuest"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLoginWithUsername"
+        android:layout_centerHorizontal="true"
+        android:text="Login as guest" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Note: Your server should be configured to handle the above login mechanisms."
+        android:textColor="#f00"
+        android:textSize="12sp" />
+
+</LinearLayout>

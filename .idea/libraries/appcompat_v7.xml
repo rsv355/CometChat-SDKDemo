@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="appcompat_v7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/appcompat_v7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

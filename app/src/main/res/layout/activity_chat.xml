@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#666"
+    tools:context="com.inscripts.sdk.demo.SingleChatActivity" >
+
+    <ListView
+        android:id="@+id/listViewChatMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeBottomArea" />
+
+    <RelativeLayout
+        android:id="@+id/relativeBottomArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/buttonSendMessage"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextChatMessage"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            android:text="Send" />
+
+        <EditText
+            android:id="@+id/editTextChatMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/buttonSendMessage"
+            android:autoLink="web"
+            android:ems="10"
+            android:imeOptions="flagNoFullscreen"
+            android:inputType="textCapSentences|textMultiLine"
+            android:linksClickable="true"
+            android:maxLines="3"
+            android:scrollbars="vertical" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+</RelativeLayout>

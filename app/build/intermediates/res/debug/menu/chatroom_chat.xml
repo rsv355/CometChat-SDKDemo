@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.inscripts.cometchat_sdkdemo.ChatroomChatActivity" >
+
+    
+
+</menu><!-- From: file:/E:/AndroidProjects/CometChat-SDKDemo/app/src/main/res/menu/chatroom_chat.xml -->

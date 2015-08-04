@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inscripts.cometchat_sdkdemo.test">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="20" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.inscripts.cometchat_sdkdemo"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.inscripts.cometchat_sdkdemo"/>
+</manifest>

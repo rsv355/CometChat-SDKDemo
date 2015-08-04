@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inscripts.sdk.demo.IncomingCallActivity" >
+
+    <Button
+        android:id="@+id/buttonCallAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:text="Accept" />
+
+    <Button
+        android:id="@+id/buttonCallReject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonCallAccept"
+        android:layout_alignBottom="@+id/buttonCallAccept"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:text="Reject" />
+
+</RelativeLayout>

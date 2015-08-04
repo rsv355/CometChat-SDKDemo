@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\classes-d67776634d979ab29263fa2d91eafa615aac3bda.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\CometChat-SDKDemo\app\libs\cometchat-sdk.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="67a5a1791c861012f3babe328f116586861e2606">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\cometchat-sdk-e567b69f784377bf95157ab1440f6276879fa441.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\CometChat-SDKDemo\app\libs\appcompat_v7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="bffeadc513e87fc0569b2ba3b7c164e80e18cd8f">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\appcompat_v7-6fc638916e138dc18a4ae7e6425686a560f5bf42.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\CometChat-SDKDemo\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="6b147264bb31fb323097abfb0730f8b6ab3d3b94">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\volley-4570de2fd6e6aaa4be8bccef23059778bb3950b0.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\classes-f3cd14665e91e800dd86e23393d8c47d0eea074c.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-fbf525eff2aaed2af39a41ec996f86d32d9b5ac7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\gson-2.2.4-a5ca0562976100ce3a803ee73fece992ceb392e9.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\CometChat-SDKDemo\app\libs\jsoup-1.7.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-748ca96841a0b447ad6c528f296f91b7adfd4c98.jar" />
+    </item>
+    <item
+        jar="E:\Android Development\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\AndroidProjects\CometChat-SDKDemo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-3a9aac5786489be50d09d6d1411c20031e5388a0.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/imageViewUserAvatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewUserAvatar"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/imageViewUserAvatar"
+        android:text="UserName"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewStatusIcon"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignBottom="@+id/textViewStatusMessage"
+        android:layout_alignLeft="@+id/textViewUserName"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/ic_user_available" />
+
+    <TextView
+        android:id="@+id/textViewStatusMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUserName"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imageViewStatusIcon"
+        android:text="Status Message" />
+
+</RelativeLayout>

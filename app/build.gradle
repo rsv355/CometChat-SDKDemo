@@ -25,4 +25,5 @@ dependencies {
     compile files('libs/cometchat-sdk.jar')
     compile files('libs/jsoup-1.7.3.jar')
     compile files('libs/volley.jar')
+    compile 'com.rockerhieu.emojicon:library:1.3.1'
 }

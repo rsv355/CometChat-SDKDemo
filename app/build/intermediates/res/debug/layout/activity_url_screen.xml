@@ -12,10 +12,11 @@
 
     <EditText
         android:id="@+id/editTextUrlField"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:ems="10"
+        android:text="http://linkyou.co.in/admin/cometchat/"
         android:hint="Website URL"
         android:singleLine="true" >
 

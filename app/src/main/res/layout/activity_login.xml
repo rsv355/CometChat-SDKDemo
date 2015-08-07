@@ -17,6 +17,7 @@
         android:text="Login" />
 
     <EditText
+        android:text="Qwerty@123"
         android:id="@+id/editTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
         android:layout_above="@id/editTextPassword"
         android:layout_centerHorizontal="true"
         android:ems="10"
+        android:text="abc@gmail.com"
         android:hint="Enter username"
         android:singleLine="true" >
 

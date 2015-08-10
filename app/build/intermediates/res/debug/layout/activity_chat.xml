@@ -13,12 +13,51 @@
         android:layout_above="@+id/relativeBottomArea" />
 
     <RelativeLayout
+
         android:id="@+id/relativeBottomArea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" >
 
-        <Button
+        <ImageView
+            android:id="@+id/emoji_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:tint="#ffffff"
+            android:tintMode="src_atop"
+            android:src="@drawable/smiley"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:tint="#ffffff"
+            android:tintMode="src_atop"
+            android:src="@drawable/ic_action_send_now"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            />
+        <github.ankushsachdeva.emojicon.EmojiconEditText
+            android:id="@+id/editTextChatMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/emoji_btn"
+            android:layout_toLeftOf="@id/submit_btn"
+            emojicon:emojiconSize="28sp" />
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/editTextChatMessage"
+            ></ListView>
+
+
+      <!--  <Button
             android:id="@+id/buttonSendMessage"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
@@ -29,7 +68,7 @@
             android:scaleType="fitCenter"
             android:text="Send" />
 
-        <com.rockerhieu.emojicon.EmojiconEditText
+        <EditText
             android:id="@+id/editTextChatMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,7 +76,6 @@
             android:layout_toLeftOf="@+id/buttonSendMessage"
             android:autoLink="web"
             android:ems="10"
-            emojicon:emojiconSize="28sp"
             android:imeOptions="flagNoFullscreen"
             android:inputType="textCapSentences|textMultiLine"
             android:linksClickable="true"
@@ -45,7 +83,11 @@
             android:scrollbars="vertical" >
 
             <requestFocus />
-        </com.rockerhieu.emojicon.EmojiconEditText>
+        </EditText>
+
+        -->
+
+
     </RelativeLayout>
 
 </RelativeLayout><!-- From: file:/E:/AndroidProjects/CometChat-SDKDemo/app/src/main/res/layout/activity_chat.xml -->

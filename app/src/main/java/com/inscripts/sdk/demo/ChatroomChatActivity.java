@@ -16,6 +16,7 @@ import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.inscripts.callbacks.Callbacks;
@@ -27,7 +28,7 @@ public class ChatroomChatActivity extends ActionBarActivity {
 
 	private String chatroomName, chatroomId;
 	private EditText input;
-	private Button sendbtn;
+	private ImageView sendbtn;
 	private CometChatroom cometChatroom;
 	private ArrayList<String> messageList;
 	private ArrayAdapter<String> adapter;
@@ -50,7 +51,9 @@ public class ChatroomChatActivity extends ActionBarActivity {
 		getSupportActionBar().setTitle(chatroomName);
 
 		input = (EditText) findViewById(R.id.editTextChatMessage);
-		sendbtn = (Button) findViewById(R.id.buttonSendMessage);
+		sendbtn = (ImageView) findViewById(R.id.submit_btn);
+
+
 		cometChatroom = CometChatroom.getInstance(getApplicationContext());
 
 		chatListView = (ListView) findViewById(R.id.listViewChatMessages);

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:emojicon="http://schemas.android.com/apk/res-auto"
-    android:background="#666"
+
     tools:context="com.inscripts.sdk.demo.SingleChatActivity">
 
     <ListView
@@ -24,8 +24,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:tint="#ffffff"
-            android:tintMode="src_atop"
             android:src="@drawable/smiley"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
@@ -35,8 +33,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:tint="#ffffff"
-            android:tintMode="src_atop"
             android:src="@drawable/ic_action_send_now"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
